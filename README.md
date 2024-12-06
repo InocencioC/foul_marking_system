@@ -1,24 +1,23 @@
-# README
+# Foul Marking System
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README outlines the steps required to set up and run the Foul Marking System application. Follow the instructions below to ensure proper setup and operation.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## Table of Contents
+1. [Ruby Version](#ruby-version)
+2. [System Dependencies](#system-dependencies)
+3. [Configuration](#configuration)
+4. [Database Creation and Initialization](#database-creation-and-initialization)
+5. [Running Tests](#running-tests)
+6. [Deployment Instructions](#deployment-instructions)
+7. [Additional Notes](#additional-notes)
 
-* System dependencies
+---
 
-* Configuration
+## Ruby Version
 
-* Database creation
+This project requires the following Ruby version:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```plaintext
+Ruby 3.x.x
