@@ -20,4 +20,7 @@ This README outlines the steps required to set up and run the Foul Marking Syste
 This project requires the following Ruby version:
 
 ```plaintext
-Ruby 3.x.x
+Ruby version: 2.7.0
+Rails version: 5.2.8.1
+
+
