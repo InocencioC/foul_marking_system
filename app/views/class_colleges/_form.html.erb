@@ -1,0 +1,52 @@
+<%= form_with(model: class_college, local: true) do |form| %>
+  <% if class_college.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(class_college.errors.count, "error") %> prohibited this class_college from being saved:</h2>
+
+      <ul>
+      <% class_college.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :id_user %>
+    <%= form.number_field :id_user %>
+  </div>
+
+  <div class="field">
+    <%= form.label :id_schedule %>
+    <%= form.number_field :id_schedule %>
+  </div>
+
+  <div class="field">
+    <%= form.label :id_student_in_class %>
+    <%= form.number_field :id_student_in_class %>
+  </div>
+
+  <div class="field">
+    <%= form.label :year %>
+    <%= form.date_select :year %>
+  </div>
+
+  <div class="field">
+    <%= form.label :class_shift %>
+    <%= form.number_field :class_shift %>
+  </div>
+
+  <div class="field">
+    <%= form.label :max_number_students %>
+    <%= form.number_field :max_number_students %>
+  </div>
+
+  <div class="field">
+    <%= form.label :id_subject %>
+    <%= form.number_field :id_subject %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

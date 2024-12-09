@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_user: 1
+  id_student_in_class: 1
+  class_shift: 1
+
+two:
+  id_user: 1
+  id_student_in_class: 1
+  class_shift: 1

@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Class Colleges</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id user</th>
+      <th>Id schedule</th>
+      <th>Id student in class</th>
+      <th>Year</th>
+      <th>Class shift</th>
+      <th>Max number students</th>
+      <th>Id subject</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @class_colleges.each do |class_college| %>
+      <tr>
+        <td><%= class_college.id_user %></td>
+        <td><%= class_college.id_schedule %></td>
+        <td><%= class_college.id_student_in_class %></td>
+        <td><%= class_college.year %></td>
+        <td><%= class_college.class_shift %></td>
+        <td><%= class_college.max_number_students %></td>
+        <td><%= class_college.id_subject %></td>
+        <td><%= link_to 'Show', class_college %></td>
+        <td><%= link_to 'Edit', edit_class_college_path(class_college) %></td>
+        <td><%= link_to 'Destroy', class_college, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Class College', new_class_college_path %>

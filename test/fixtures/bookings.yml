@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_student_in_class: 1
+  id_class: 1
+  foul_day: 2024-12-09 09:55:21
+  mark_student_in_class: 1
+
+two:
+  id_student_in_class: 1
+  id_class: 1
+  foul_day: 2024-12-09 09:55:21
+  mark_student_in_class: 1

@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id user:</strong>
+  <%= @class_college.id_user %>
+</p>
+
+<p>
+  <strong>Id schedule:</strong>
+  <%= @class_college.id_schedule %>
+</p>
+
+<p>
+  <strong>Id student in class:</strong>
+  <%= @class_college.id_student_in_class %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @class_college.year %>
+</p>
+
+<p>
+  <strong>Class shift:</strong>
+  <%= @class_college.class_shift %>
+</p>
+
+<p>
+  <strong>Max number students:</strong>
+  <%= @class_college.max_number_students %>
+</p>
+
+<p>
+  <strong>Id subject:</strong>
+  <%= @class_college.id_subject %>
+</p>
+
+<%= link_to 'Edit', edit_class_college_path(@class_college) %> |
+<%= link_to 'Back', class_colleges_path %>

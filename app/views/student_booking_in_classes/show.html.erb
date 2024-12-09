@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id user:</strong>
+  <%= @student_booking_in_class.id_user %>
+</p>
+
+<p>
+  <strong>Id student in class:</strong>
+  <%= @student_booking_in_class.id_student_in_class %>
+</p>
+
+<p>
+  <strong>Class shift:</strong>
+  <%= @student_booking_in_class.class_shift %>
+</p>
+
+<%= link_to 'Edit', edit_student_booking_in_class_path(@student_booking_in_class) %> |
+<%= link_to 'Back', student_booking_in_classes_path %>

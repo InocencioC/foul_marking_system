@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_user: 1
+  id_schedule: 1
+  id_student_in_class: 1
+  year: 2024-12-09
+  class_shift: 1
+  max_number_students: 1
+  id_subject: 1
+
+two:
+  id_user: 1
+  id_schedule: 1
+  id_student_in_class: 1
+  year: 2024-12-09
+  class_shift: 1
+  max_number_students: 1
+  id_subject: 1

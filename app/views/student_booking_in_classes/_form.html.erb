@@ -1,0 +1,32 @@
+<%= form_with(model: student_booking_in_class, local: true) do |form| %>
+  <% if student_booking_in_class.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(student_booking_in_class.errors.count, "error") %> prohibited this student_booking_in_class from being saved:</h2>
+
+      <ul>
+      <% student_booking_in_class.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :id_user %>
+    <%= form.number_field :id_user %>
+  </div>
+
+  <div class="field">
+    <%= form.label :id_student_in_class %>
+    <%= form.number_field :id_student_in_class %>
+  </div>
+
+  <div class="field">
+    <%= form.label :class_shift %>
+    <%= form.number_field :class_shift %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
